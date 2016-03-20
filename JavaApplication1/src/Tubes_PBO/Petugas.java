@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication1;
+package Tubes_PBO;
 
 /**
  *
  * @author GL522JX
  */
-public class JavaApplication1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Petugas {
+    private String id;
+    
+    public void setid(String id){
+        this.id = id;
     }
     
+    public String getid(){
+        return this.id;
+    }
 }
