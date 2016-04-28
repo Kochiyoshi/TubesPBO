@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Tubes_PBO;
+package Database;
 
 /**
  *
  * @author GL522JX
  */
-public class Petugas {
-    private String id;
+public class Database {
     
-    public void setid(String id){
-        this.id = id;
-    }
-    
-    public String getid(){
-        return this.id;
-    }
 }
